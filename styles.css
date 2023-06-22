@@ -1,18 +1,7 @@
-
-/* Your CSS Code here. */
-   .container-fluid {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .col-4 {
-            flex: 0 0 33.33%;
-            max-width: 33.33%;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-        img {
-            width: 100%;
-            height: auto;
-        }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 5px;
+  object-fit: cover;
+}
